@@ -1,0 +1,293 @@
+body{
+  margin:0px;
+  font-family: 'Noto Sans Japanese', 'Lato' , YuGothic, '游ゴシック',"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:cursor{
+  cursor: pointer;
+}
+h1{
+  margin: 0px;
+}
+h3{
+  font-family: 'Noto Sans Japanese', 'Lato' , YuGothic, '游ゴシック',"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+/* ヘッダー */
+header{
+  background-color: black;
+  padding-bottom: 10px;
+  height: 100%;
+}
+.header-container{
+  padding-top: 30px;
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+
+}
+.current-header{
+  border-bottom: 1px solid white;
+}
+.header-left{
+  float: left;
+}
+.header-left h1{
+  font-size: 32px;
+}
+.header-left h1:hover{
+  color: gray;
+}
+
+.fa-bars{
+  cursor: pointer;
+  display: block;
+  float: right;
+  font-size: 30px;
+}
+/* メニューバー */
+.menu{
+display: none;
+background-color: black;
+height: 100%;
+text-align: right;
+color: white;
+}
+.menuList{
+  width: 90%;
+  margin: 0 auto;
+}
+.menu li{
+font-family: arial black;
+padding-bottom: 10px;
+}
+.menu a:hover{
+border-bottom: 1px solid white;
+}
+.menu i {
+padding-right: 10px;
+}
+
+
+
+.current-footer{
+  border-bottom: 1px solid white;
+}
+.clear{
+  clear: both;
+}
+
+/* メイン */
+
+/* プロフィール */
+.main-container{
+  margin: 50px 40px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.section{
+  padding-top: 20px;
+  padding-bottom:100px;
+  margin-bottom:40px;
+  border-bottom: 1px solid #dddddd;
+}
+.heading{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align:center;
+}
+.heading i{
+  font-size: 30px;
+  color: #222222;
+}
+.heading p{
+  color: gray;
+  margin-bottom: 5px;
+}
+.main-container h3{
+  font-weight: normal;
+  color: #222222;
+}
+
+
+
+.icon{
+  width: 20%;
+  border: 3px solid gray;
+  border-radius: 75%;
+}
+
+
+/* プロフィイールテキスト */
+.selfIntroduction{
+  width: 60%;
+  margin : 0 auto;
+}
+.selfIntroduction-eng{
+  line-height: 180%;
+  padding-left: 40px;
+  text-align:left;
+  width: 60%;
+}
+/* Aboutメニュー */
+.about-menu-list{
+  width:100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.about-menu-list li{
+  color: dimgray;
+  font-size: 25px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-menu-list li:hover{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* career */
+.career-eng{
+  padding-left: 80px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* skills */
+.skills {
+   display: flex;
+}
+.skill {
+  width: 40%;
+  flex-wrap: wrap;
+}
+.skill i{
+  font-size: 120px;
+    color: dimgray;
+}
+.times {
+  height: 100%;
+  width: 20%;
+}
+.mix{
+  padding-top: 100px;
+  color: dimgray;
+  font-size: 50px;
+}
+.skill-text{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.arrow{
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fa-arrow-down{
+  padding-top: 80px;
+  color: dimgray;
+  font-size: 50px;
+}
+.skill-text-eng{
+  padding-left: 40px;
+  text-align: left;
+}
+/* .fa-globe-americas{
+  padding-top: 20px;
+  padding-right: 15px;
+  color: #444444;
+  font-size: 100px;
+} */
+.skill-result{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.skill-result i{
+  padding-top: 20px;
+  padding-left: 15px;
+  color: dimgray;
+  font-size: 100px;
+}
+
+.works{
+  border: 1px solid #dddddd;
+  margin-top: 60px;
+}
+.works:hover{
+  background: rgba(0,0,0,0.2);
+}
+.works-images{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.works-images li{
+  flex:auto;
+  padding: 5px;
+}
+.works-image{
+  width: 100%;
+  opacity: 0.5;
+}
+.works-image:hover{
+  opacity: 1;
+}
+/* Contacts info */
+.contact-info{
+  text-align: center;
+}
+.contact-icons{
+  margin-bottom: 30px;
+}
+.contact-icon{
+  font-size: 40px;
+  margin: 0 20px;
+  color: dimgray;
+}
+.contact-icon:hover{
+  color: black;
+  font-weight: bold;
+  font-size: 46px;
+}
+
+.toTop{
+  color: dimgray;
+}
+.toTop:hover{
+  color: black;
+}
+
+/* フッター */
+.footer-container{
+  background-color: black;
+  padding: 64px 40px;
+  text-align: center;
+  color: gray;
+}
+.footer-container a{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: arial black;
+}
+.footer-container a:hover{
+  color: white;
+}

@@ -1,0 +1,101 @@
+@media (max-width: 1000px){
+
+}
+@media  (max-width: 670px){
+
+  header{
+    background-color: black;
+    padding-bottom: 10px;
+  }
+
+  .header-left{
+    color: white;
+  }
+  .header-left h1{
+    font-size: 24px;
+    color: white;
+  }
+  .header-left h1:hover{
+    color: gray;
+  }
+  .header-right{
+  }
+  .current-header{
+    border-bottom: 1px solid white;
+  }
+  .fa-bars{
+    display: block;
+    float: right;
+    height: 20px;
+    width: 18px;
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+  .main-container{
+    width: 100%;
+  }
+  .main-left{
+    width: 100%;
+  }
+  .main-img{
+    width: 100%;
+  }
+  .main-right{
+    width: 100%;
+  }
+  .main-right h2{
+    font-size: 24px;
+  }
+/* メニューバー */
+  .menu{
+    display: none;
+    background-color: black;
+    height: 100%;
+    padding: 20px 40px 10px 10px;
+    text-align: right;
+  }
+  .fab:hover{
+    color: white;
+  }
+
+  .menu li{
+    font-family: arial black;
+    color: white;
+    padding-bottom: 10px;
+  }
+  .menu a:hover{
+    border-bottom: 1px solid white;
+  }
+  .menu i {
+    padding-right: 10px;
+  }
+
+  /* コンタクトフォーム */
+  .GetInTouch-form{
+    position:absolute;
+    top: 10%;
+    left: 15%;
+  }
+  .blank {
+    width:75%;
+  }
+
+/* works.html */
+.works-gallary{
+  width: 100%;
+}
+.works-gallary-title{
+  margin-top: 40px;
+  text-align:center;
+}
+.works-gallary-items{
+  margin-top:100px;
+  display: column;
+
+}
+.works-gallary-item{
+  width: 100%;
+}
+
+
+}

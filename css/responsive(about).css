@@ -1,0 +1,103 @@
+@media (max-width: 1000px){
+
+}
+@media  (max-width: 670px){
+
+  header{
+    background-color: black;
+    padding-bottom: 10px;
+  }
+
+  .header-left{
+    color: white;
+  }
+  .header-left h1{
+    font-size: 24px;
+    color: white;
+  }
+  .header-left h1:hover{
+    color: gray;
+  }
+  .header-right{
+  }
+  .current-header{
+    border-bottom: 1px solid white;
+  }
+  .fa-bars{
+    display: block;
+    float: right;
+    height: 20px;
+    width: 18px;
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+/* メニューバー */
+.menu{
+  display: none;
+  background-color: black;
+  height: 100%;
+  padding: 20px 40px 10px 10px;
+  text-align: right;
+  color: white;
+}
+
+.menu li{
+  font-family: arial black;
+  padding-bottom: 10px;
+}
+.menu a:hover{
+  border-bottom: 1px solid white;
+}
+.menu i {
+  padding-right: 10px;
+}
+
+.about-menu-list{
+  float: right;
+}
+.about-menu-list li{
+  padding-bottom: 0;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+.main-container{
+    width: 100%;
+    margin:  0 auto;
+  }
+.selfIntroduction-eng{
+  padding-left: 0;
+  width: 100%;
+}
+.career-eng{
+  padding-left: 0;
+  width: 100%;
+}
+.skills{
+  display: block;
+}
+.skill{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.times{
+  width: 100%;
+  margin: 0 auto;
+}
+.fa-times{
+  padding: 40px 0;
+}
+/* .fa-times{
+  width: 100%;
+  margin: 0 auto;
+} */
+
+.skill-text{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skill-result{
+  width: 100%;
+  margin: 0 auto;
+}
